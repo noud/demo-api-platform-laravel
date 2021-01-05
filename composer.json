@@ -1,0 +1,29 @@
+{
+    "name": "noud/laravel-api-platform-demo",
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "description": "Laravel API-Platform demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noud de Brouwer",
+            "email": "noud4@home.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "API\\Platform\\Demo\\": "src/app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "API\\Platform\\Demo\\Providers\\APIPlatformDemoServiceProvider"
+            ]
+        }
+    }
+}

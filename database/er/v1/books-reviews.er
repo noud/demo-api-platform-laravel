@@ -1,0 +1,20 @@
+title {label: "books-reviews"}
+
+[books]
+*id {label: "bigint, not null"}
+isbn {label: "string, null"}
+title
+description {label: "text"}
+author
+publicationDate {label: "datetime"}
+cover {label: "string, null"}
+
+[reviews]
+*id {label: "bigint, not null"}
+body {label: "text"}
+rating {label: "integer"}
+author {label: "string, null"}
+publicationDate {label: "datetime, null"}
++book_id {label: "bigint, not null"}
+
+reviews *--1 books

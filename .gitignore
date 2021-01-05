@@ -1,0 +1,5 @@
+src/database/migrations/*
+!src/database/migrations/*_create*_foreign_keys_table.php
+
+node_modules
+vendor
