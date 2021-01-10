@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "book-review-db": "^1.0.0",
+        "erd-js": "dev-master"
+    }
+}
